@@ -4,7 +4,7 @@ var Main = (function (_super) {
         _super.call(this);
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
     }
-    var d = __define,c=Main,p=c.prototype;
+    var d = __define,c=Main;p=c.prototype;
     p.onAddToStage = function (event) {
         var self = this;
         //设置是否为开发模式
@@ -51,3 +51,4 @@ var Main = (function (_super) {
     return Main;
 })(egret.DisplayObjectContainer);
 egret.registerClass(Main,"Main");
+//# sourceMappingURL=Main.js.map
