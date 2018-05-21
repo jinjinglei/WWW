@@ -1,0 +1,8 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "MoJinGain.ts",
+    "Treasure.ts"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-guildCopy",
+            "description": "g-guildCopy",
+            "files": [
+                "GuildCopyItem.ts",
+                "GuildCopy.ts",
+                "GuildCopyBossItem.ts",
+                "GuildCopyBoss.ts"
+            ]
+        }
+    ]
+}

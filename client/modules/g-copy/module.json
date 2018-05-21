@@ -1,0 +1,16 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "Consts.ts",
+    "BossCopy.ts",
+    "BossCopyItem.ts",
+    "CopyItem.ts",
+    "Copy.ts",
+    "StateCopy.ts",
+    "CopyEntryItem.ts",
+    "CopyEntry.ts",
+    "VipCopyItem.ts",
+    "VipCopy.ts"
+  ]
+}

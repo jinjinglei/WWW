@@ -1,0 +1,26 @@
+{
+    "modules" : ["g-base","g-home"],
+    "source":"src",
+    "files" : [
+        "RoleLayer.ts",
+        "RoleDetail.ts",
+        "RoleMatrix.ts",
+        "RoleWing.ts",
+        "RoleWingStr.ts",
+        "RoleSkill.ts",
+        "EquipDetail.ts",
+        "EquipChange.ts",
+        "EquipChoose.ts",
+        "EquipChooseItem.ts",
+        "SkillItem.ts",
+        "RoleMatrixInfo.ts",
+        "BreakDetail.ts",
+        "BreakTuPo.ts",
+        "RoleScene.ts",
+        "enemy/EnemyTopRole.ts",
+        "enemy/RoleEnemyInfo.ts",
+        "RoleWingUpgrade.ts",
+        "RoleBuzhen.ts",
+        "RoleBuzhenItem.ts"
+    ]
+}

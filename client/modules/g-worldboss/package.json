@@ -1,0 +1,34 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-worldboss",
+            "description": "g-worldboss",
+            "files": [
+                "BossWar.ts",
+                "BossExtraCost.ts",
+                "WBossRewardItem.ts",
+                "WBossReward.ts",
+                "WBossCell.ts",
+                "WBossList.ts",
+                "BossResBackItem.ts",
+                "BossResBack.ts",
+                "GuildBossFightingCell.ts",
+                "GuildBossCallCell.ts",
+                "GuildBossList.ts",
+                "GuildBossLevelList.ts",
+                "GuildBossCall.ts",
+                "GuildBossLevelCallCell.ts",
+                "GuildBossInspire.ts",
+                "GuildBossGrand.ts",
+                "GuildBossReward.ts",
+                "WorldBoss.ts",
+                "WorldBossHurtCell.ts",
+                "WorldBossHurtList.ts",
+                "WBossCall.ts"
+            ]
+        }
+    ]
+}

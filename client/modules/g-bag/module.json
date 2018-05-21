@@ -1,0 +1,11 @@
+{
+    "modules" : ["g-base", "g-smelting"],
+    "source":"src",
+    "files" : [
+        "BagCell.ts",
+        "BagLayer.ts",
+        "BagOpenBox.ts",
+        "BagScene.ts",
+        "BagSale.ts"
+    ]
+}

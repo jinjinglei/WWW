@@ -1,0 +1,13 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "LotusLayer.ts",
+    "LotusDetail.ts",
+    "LotusLvUp.ts",
+    "LotusAdvUp.ts",
+    "LotusTrea.ts",
+    "LotusOpeningDlg.ts",
+    "LotusScene.ts"
+  ]
+}

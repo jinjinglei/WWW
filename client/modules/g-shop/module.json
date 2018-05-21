@@ -1,0 +1,14 @@
+{
+    "modules" : ["g-base","g-mid"],
+    "source":"src",
+    "files" : [
+        "ShopItem.ts",
+        "Shop.ts",
+        "ShopBuy.ts",
+        "ShopLayer2.ts",
+        "ShopScene.ts",
+        "view/ShopBuyEquip.ts",
+        "ArenaShop.ts",
+        "ArenaShopItem.ts"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-mid",
+            "description": "g-mid",
+            "files": [
+                "BindPhoneSucc.ts",
+                "BindPhone.ts",
+                "SaveGame.ts",
+                "BaseMidBar.ts",
+                "recharge/RechargeItem.ts",
+                "recharge/RechargeItemWanba.ts",
+                "recharge/Recharge.ts",
+                "recharge/Vip.ts",
+                "firstRecharge/FirstRecharge.ts",
+                "firstRecharge/FirstRechargeWanba.ts",
+                "ChatItem.ts",
+                "Chat.ts",
+                "ChatSetting.ts",
+                "BugFeedBack.ts",
+                "BugChat.ts",
+                "bar/HomeBottomBar.ts",
+                "bar/FightBottomBar.ts",
+                "bar/HomeMidBar.ts",
+                "bar/FightMidBar.ts",
+                "vip/TuLong.ts",
+                "vip/TuLongWanba.ts",
+                "friend/FriendBreakDialog.ts",
+                "friend/FriendDialog.ts",
+                "friend/FriendFirstInvite.ts",
+                "friend/FriendListItem.ts",
+                "friend/FriendMsgAlert.ts"
+            ]
+        }
+    ]
+}

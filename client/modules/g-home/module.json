@@ -1,0 +1,8 @@
+{
+    "modules" : ["g-base", "g-mid", "g-shop", "g-copy","g-guild","g-arena","g-chuanchen","g-worldboss","g-defarena","g-coffers","g-medal"],
+    "source":"src",
+    "files" : [
+        "HomeBg.ts",
+        "HomeScene.ts"
+    ]
+}

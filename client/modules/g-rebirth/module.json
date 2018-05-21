@@ -1,0 +1,8 @@
+{
+  "modules" : ["g-base","g-bag","g-shop"],
+  "source":"src",
+  "files" : [
+    "Rebirth.ts",
+    "RebirthExp.ts"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "modules": ["egret", "game"],
+  "source":"src",
+  "files" : [
+      "Nest.ts",
+      "egret_sdk_bridge.js",
+      "h5/NestForH5.ts",
+      "h5/EgretH5Sdk.d.ts"
+  ]
+}

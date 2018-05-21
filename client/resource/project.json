@@ -1,0 +1,25 @@
+{
+    "package" : "com.modogame",
+    "projName" : "chuanqi_world",
+    "appName" : "传奇世界",
+
+    "logLvl" : {
+        "default" : 4
+    },
+
+    "renderMode" : 0,
+    "showFPS" : false,
+    "frameRate" : 30,
+
+    "version" : "0.0.1",
+
+    "channelId" : 10005,
+
+    "httpHost" : "192.168.1.188",
+    "httpPort" : "5005",
+
+    "resLimit" : 100,
+    "audioEnabled" : false,
+    "guideEnabled" : true,
+    "payCheckFrq":[2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 5, 10, 20, 30, 60, 600, 1800, 3610]
+}

@@ -1,0 +1,13 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "ChannelCfg.ts",
+    "ChannelMap.ts",
+    "Channel10001.ts",
+    "Channel10002.ts",
+    "Channel10003.ts",
+    "Channel10004.ts",
+    "Channel10005.ts"
+  ]
+}

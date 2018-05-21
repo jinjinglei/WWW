@@ -1,0 +1,18 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-bag",
+            "description": "g-bag",
+            "files": [
+                "BagCell.ts",
+                "BagLayer.ts",
+                "BagOpenBox.ts",
+                "BagScene.ts",
+                "BagSale.ts"
+            ]
+        }
+    ]
+}

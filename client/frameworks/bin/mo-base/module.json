@@ -1,0 +1,37 @@
+{
+    "modules" : ["boot", "3rdParty", "res", "action"],
+    "source" : "src",
+    "files" : [
+        "baseCommonApi.ts",
+        "mo.ts",
+        "STR.ts",
+        "ARR.ts",
+        "ACT.ts",
+        "Class.ts",
+
+        "event/gEventType.ts",
+        "event/Event.ts",
+        "event/EventDispatcherUtils.ts",
+        "event/GlobalEventDispatcher.ts",
+
+        "ColorMatrix.ts",
+        "DateUtils.ts",
+        "extension.ts",
+        "mo_res.ts",
+        "Res.ts",
+        "audio.ts",
+        "Option.ts",
+        "Point.ts",
+        "Rect.ts",
+        "Size.ts",
+        "PointArith.ts",
+        "Utils_new.ts",
+        "UBBParser.ts",
+        "DataController.ts",
+        "MsgMgr.ts",
+
+        "factory/BaseFactory.ts",
+        "factory/MultiIdBaseFactory.ts"
+
+    ]
+}

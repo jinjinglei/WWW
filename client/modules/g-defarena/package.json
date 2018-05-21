@@ -1,0 +1,20 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-defArena",
+            "description": "g-defArena",
+            "files": [
+                "DefArena.ts",
+                "DefarenaWinner.ts",
+                "DefArenaGain.ts",
+                "DefArenaRankItem.ts",
+                "DefArenaRank.ts",
+                "DefArenaRankRewardCell.ts",
+                "DefArenaRankReward.ts"
+            ]
+        }
+    ]
+}

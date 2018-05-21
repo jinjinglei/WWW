@@ -1,0 +1,20 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-channel",
+            "description": "g-channel",
+            "files": [
+                "ChannelCfg.ts",
+                "ChannelMap.ts",
+                "Channel10001.ts",
+                "Channel10002.ts",
+                "Channel10003.ts",
+                "Channel10004.ts",
+                "Channel10005.ts"
+            ]
+        }
+    ]
+}

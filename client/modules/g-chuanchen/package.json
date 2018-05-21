@@ -1,0 +1,16 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-chuanchen",
+            "description": "g-chuanchen",
+            "files": [
+                "CCEquipChooseItem.ts",
+                "Chuanchen.ts",
+                "CCEquip.ts"
+            ]
+        }
+    ]
+}

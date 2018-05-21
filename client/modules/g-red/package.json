@@ -1,0 +1,22 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-red",
+            "description": "g-red",
+            "files": [
+                "RedPacket.ts",
+                "RedPacketGet.ts",
+                "RedPacketGetCell.ts",
+                "RedPacketList.ts",
+                "RedPacketRecCell.ts",
+                "RedPacketListCell.ts",
+                "RedPacketSystem.ts",
+                "RedPacketDetail.ts",
+                "RedPacketDetailCell.ts"
+            ]
+        }
+    ]
+}

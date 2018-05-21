@@ -1,0 +1,253 @@
+{
+    "native": {
+        "path_ignore": [
+            "resource/myProject.json",
+            "resource/shared",
+            ".idea",
+            ".gitignore",
+            ".DS_Store"
+        ],
+        "android_path": "../../out/aos",
+        "ios_path": "../../out/ios"
+    },
+    "release": "../release",
+    "publish": {
+        "web": null,
+        "native": null,
+        "out": "../../out",
+        "baseVersion": 2
+    },
+    "egret_version": "2.5.6",
+    "modules": [
+        {
+            "name": "egret"
+        },
+        {
+            "name": "game"
+        },
+        {
+            "name": "gui"
+        },
+        {
+            "name": "skins",
+            "path": "./modules/skins"
+        },
+        {
+            "name": "res"
+        },
+        {
+            "name": "tween"
+        },
+        {
+            "name": "socket"
+        },
+        {
+            "name": "lib",
+            "path": "./frameworks"
+        },
+        {
+            "name": "boot",
+            "path": "./frameworks"
+        },
+        {
+            "name": "3rdParty",
+            "path": "./frameworks"
+        },
+        {
+            "name": "action",
+            "path": "./frameworks"
+        },
+        {
+            "name": "mo-base",
+            "path": "./frameworks"
+        },
+        {
+            "name": "tm",
+            "path": "./frameworks"
+        },
+        {
+            "name": "mo-action",
+            "path": "./frameworks"
+        },
+        {
+            "name": "mo-gui",
+            "path": "./frameworks"
+        },
+        {
+            "name": "mo-net",
+            "path": "./frameworks"
+        },
+        {
+            "name": "mo-channel",
+            "path": "./frameworks"
+        },
+        {
+            "name": "nest",
+            "path": "./frameworks"
+        },
+        {
+            "name": "mo-guide",
+            "path": "./frameworks"
+        },
+        {
+            "name": "jszip",
+            "path": "./modules/jszip"
+        },
+        {
+            "name": "dcagent",
+            "path": "./modules/dcagent"
+        },
+        {
+            "name": "g-base",
+            "path": "./modules/g-base"
+        },
+        {
+            "name": "g-channel",
+            "path": "./modules/g-channel"
+        },
+        {
+            "name": "g-index",
+            "path": "./modules/g-index"
+        },
+        {
+            "name": "g-smelting",
+            "path": "./modules/g-smelting"
+        },
+        {
+            "name": "g-bag",
+            "path": "./modules/g-bag"
+        },
+        {
+            "name": "g-task",
+            "path": "./modules/g-task"
+        },
+        {
+            "name": "g-rank",
+            "path": "./modules/g-rank"
+        },
+        {
+            "name": "g-treasure",
+            "path": "./modules/g-treasure"
+        },
+        {
+            "name": "g-activity",
+            "path": "./modules/g-activity"
+        },
+        {
+            "name": "g-mail",
+            "path": "./modules/g-mail"
+        },
+        {
+            "name": "g-mid",
+            "path": "./modules/g-mid"
+        },
+        {
+            "name": "g-shop",
+            "path": "./modules/g-shop"
+        },
+        {
+            "name": "g-copy",
+            "path": "./modules/g-copy"
+        },
+        {
+            "name": "g-worldboss",
+            "path": "./modules/g-worldboss"
+        },
+        {
+            "name": "g-guild",
+            "path": "./modules/g-guild"
+        },
+        {
+            "name": "g-arena",
+            "path": "./modules/g-arena"
+        },
+        {
+            "name": "g-chuanchen",
+            "path": "./modules/g-chuanchen"
+        },
+        {
+            "name": "g-defarena",
+            "path": "./modules/g-defarena"
+        },
+        {
+            "name": "g-coffers",
+            "path": "./modules/g-coffers"
+        },
+        {
+            "name": "g-medal",
+            "path": "./modules/g-medal"
+        },
+        {
+            "name": "g-home",
+            "path": "./modules/g-home"
+        },
+        {
+            "name": "g-fight",
+            "path": "./modules/g-fight"
+        },
+        {
+            "name": "g-forge",
+            "path": "./modules/g-forge"
+        },
+        {
+            "name": "g-role",
+            "path": "./modules/g-role"
+        },
+        {
+            "name": "g-guide",
+            "path": "./modules/g-guide"
+        },
+        {
+            "name": "g-red",
+            "path": "./modules/g-red"
+        },
+        {
+            "name": "g-defArena",
+            "path": "./modules/g-defArena"
+        },
+        {
+            "name": "g-king",
+            "path": "./modules/g-king"
+        },
+        {
+            "name": "g-lotus",
+            "path": "./modules/g-lotus"
+        },
+        {
+            "name": "g-rebirth",
+            "path": "./modules/g-rebirth"
+        },
+        {
+            "name": "g-custom",
+            "path": "./modules/g-custom"
+        },
+        {
+            "name": "g-heart",
+            "path": "./modules/g-heart"
+        },
+        {
+            "name": "g-guildCopy",
+            "path": "./modules/g-guildCopy"
+        },
+        {
+            "name": "g-guildwar",
+            "path": "./modules/g-guildwar"
+        },
+        {
+            "name": "g-tower",
+            "path": "./modules/g-tower"
+        },
+        {
+            "name": "g-practice",
+            "path": "./modules/g-practice"
+        },
+        {
+            "name": "g-gift",
+            "path": "./modules/g-gift"
+        },
+        {
+            "name": "g-villian",
+            "path": "./modules/g-villian"
+        }
+    ]
+}

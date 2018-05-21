@@ -1,0 +1,23 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-copy",
+            "description": "g-copy",
+            "files": [
+                "Consts.ts",
+                "BossCopy.ts",
+                "BossCopyItem.ts",
+                "CopyItem.ts",
+                "Copy.ts",
+                "StateCopy.ts",
+                "CopyEntryItem.ts",
+                "CopyEntry.ts",
+                "VipCopyItem.ts",
+                "VipCopy.ts"
+            ]
+        }
+    ]
+}

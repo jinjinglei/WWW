@@ -1,0 +1,8 @@
+{
+    "modules" : ["mo-base", "mo-net"],
+    "source":"src",
+    "files" : [
+        "BaseChannel.ts",
+        "BaseSDKChannel.ts"
+    ]
+}

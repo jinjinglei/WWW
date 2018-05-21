@@ -1,0 +1,12 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "TowerGain.ts",
+    "TowerTreasury.ts",
+    "TowerPreview.ts",
+    "TowerMonster.ts",
+    "Tower.ts"
+
+  ]
+}

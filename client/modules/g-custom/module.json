@@ -1,0 +1,11 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "CustomItem.ts",
+    "CustomList.ts",
+    "CustomPropItem.ts",
+    "Custom.ts",
+    "CustomCCEquip.ts"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "modules" : ["g-base", "g-arena"],
+  "source":"src",
+  "files" : [
+    "DefArena.ts",
+    "DefarenaWinner.ts",
+    "DefArenaGain.ts",
+    "DefArenaRankItem.ts",
+    "DefArenaRank.ts",
+    "DefArenaRankRewardCell.ts",
+    "DefArenaRankReward.ts"
+  ]
+}

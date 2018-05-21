@@ -1,0 +1,21 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-shop",
+            "description": "g-shop",
+            "files": [
+                "ShopItem.ts",
+                "Shop.ts",
+                "ShopBuy.ts",
+                "ShopLayer2.ts",
+                "ShopScene.ts",
+                "view/ShopBuyEquip.ts",
+                "ArenaShop.ts",
+                "ArenaShopItem.ts"
+            ]
+        }
+    ]
+}

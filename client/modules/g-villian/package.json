@@ -1,0 +1,21 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-villian",
+            "description": "g-villian",
+            "files": [
+                "VillianLayer.ts",
+                "VillianEnemy.ts",
+                "VillianBattle.ts",
+                "VillianHeroCell.ts",
+                "VillianSoulLayer.ts",
+                "VillianSoulCell.ts",
+                "VillianShopLayer.ts",
+                "VillianShopItem.ts"
+            ]
+        }
+    ]
+}

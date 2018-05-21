@@ -1,0 +1,7 @@
+{
+    "modules": ["egret", "game", "lib"],
+    "source":"src",
+    "files" : [
+        "boot.ts"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "modules" : ["g-base","g-mid"],
+  "source":"src",
+  "files" : [
+    "GuildWarRankGuildCell.ts",
+    "GuildWarRankGuildManagerCell.ts",
+    "GuildWarRankPersonCell.ts",
+    "GuildWarAttackRecDlg.ts",
+    "GuildWarDefenceRecCell.ts",
+    "GuildWarDefenceRecDlg.ts",
+    "GuildWarGuildCell.ts",
+    "GuildWarDef.ts",
+    "GuildWarGuildList.ts",
+    "GuildWarChat.ts",
+    "GuildWarDefSetting.ts",
+    "GuildWarRank.ts",
+    "GuildWarRewardCell.ts",
+    "GuildWarRewardLook.ts",
+    "GuildWarScene.ts",
+    "GuildWarSign.ts",
+    "GuildWarSignCell.ts"
+  ]
+}

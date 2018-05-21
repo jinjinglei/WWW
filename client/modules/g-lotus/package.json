@@ -1,0 +1,20 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-lotus",
+            "description": "g-lotus",
+            "files": [
+                "LotusLayer.ts",
+                "LotusDetail.ts",
+                "LotusLvUp.ts",
+                "LotusAdvUp.ts",
+                "LotusTrea.ts",
+                "LotusOpeningDlg.ts",
+                "LotusScene.ts"
+            ]
+        }
+    ]
+}

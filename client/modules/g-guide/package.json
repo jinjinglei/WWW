@@ -1,0 +1,27 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-guide",
+            "description": "g-guide",
+            "files": [
+                "handler/Handler_afterNext.ts",
+                "handler/Handler_afterShow.ts",
+                "handler/Handler_beforeNext.ts",
+                "handler/Handler_beforeShow.ts",
+                "handler/Handler_judge.ts",
+                "handler/Handler_condition.ts",
+                "handler/Handler_next.ts",
+                "handler/Handler_node.ts",
+                "handler/Handler_rectNode.ts",
+                "handler/Handler_revert.ts",
+                "guide_helper.ts",
+                "GuideParser.ts",
+                "Guide2.ts",
+                "guide_init.ts"
+            ]
+        }
+    ]
+}

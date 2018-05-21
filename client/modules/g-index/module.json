@@ -1,0 +1,19 @@
+{
+    "modules" : ["g-base", "g-channel"],
+    "source":"src",
+    "files" : [
+        "local_sdk/LocalSDK.ts",
+        "local_sdk/LocalChannel.ts",
+        "local_sdk/IndexRegister.ts",
+        "local_sdk/IndexLogin.ts",
+        "local_sdk/IndexRetry.ts",
+        "IndexBg.ts",
+        "IndexLayer.ts",
+        "IndexServerItem.ts",
+        "IndexServerShortItem.ts",
+        "IndexServerRangeItem.ts",
+        "IndexServer.ts",
+        "IndexScene.ts",
+        "UserAgreement.ts"
+    ]
+}

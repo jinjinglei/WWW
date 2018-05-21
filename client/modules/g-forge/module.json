@@ -1,0 +1,12 @@
+{
+    "modules" : ["g-base"],
+    "source":"src",
+    "files" : [
+        "ForgeLayer.ts",
+        "EquipStrBase.ts",
+        "EquipStrStar.ts",
+        "EquipStrGem.ts",
+      "RefineLayer.ts",
+        "ForgeScene.ts"
+    ]
+}

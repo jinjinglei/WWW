@@ -1,0 +1,29 @@
+{
+    "modules": ["gui", "tm", "mo-base", "mo-action"],
+    "source":"src",
+    "files": [
+        "ModuleMgr.ts",
+        "DelegateFactory.ts",
+        "Rect.ts",
+        "Label.ts",
+        "Comp.ts",
+        "Ico.ts",
+        "UIAsset.ts",
+        "ItemRenderer.ts",
+        "Layer.ts",
+        "BitmapLabel.ts",
+        "MenuLayer.ts",
+        "Dlg.ts",
+        "MsgDlg.ts",
+        "TopLayer.ts",
+        "Tip.ts",
+        "CircleImg.ts",
+        "Scene.ts",
+        "ResidentScene.ts",
+        "ClipBar.ts",
+        "Helper.ts",
+        "AssetAdapter.ts",
+        "Scene_New.ts",
+        "ModuleMgr_New.ts"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-medal",
+            "description": "g-medal",
+            "files": [
+                "MedalCell.ts",
+                "MedalAchiItem.ts",
+                "Medal.ts",
+                "MedalChooseItem.ts",
+                "MedalChange.ts",
+                "PrintItem.ts",
+                "PrintDetail.ts",
+                "PrintStr.ts"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "BossWar.ts",
+    "BossExtraCost.ts",
+    "WBossRewardItem.ts",
+    "WBossReward.ts",
+    "WBossCell.ts",
+    "WBossList.ts",
+    "BossResBackItem.ts",
+    "BossResBack.ts",
+    "GuildBossFightingCell.ts",
+    "GuildBossCallCell.ts",
+    "GuildBossList.ts",
+    "GuildBossLevelList.ts",
+    "GuildBossCall.ts",
+    "GuildBossLevelCallCell.ts",
+    "GuildBossInspire.ts",
+    "GuildBossGrand.ts",
+    "GuildBossReward.ts",
+    "WorldBoss.ts",
+    "WorldBossHurtCell.ts",
+    "WorldBossHurtList.ts",
+    "WBossCall.ts"
+  ]
+}

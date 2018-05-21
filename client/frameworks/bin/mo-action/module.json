@@ -1,0 +1,13 @@
+{
+    "modules" : ["3rdParty", "boot", "action", "mo-base"],
+    "source" : "src",
+    "files" : [
+        "Action.ts",
+        "Progress.ts",
+        "Ellipse.ts",
+        "Bezier.ts",
+        "Ease.ts",
+        "Shake.ts",
+        "Track.ts"
+    ]
+}

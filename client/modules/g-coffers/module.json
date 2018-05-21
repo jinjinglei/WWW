@@ -1,0 +1,18 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "CoffersLayer.ts",
+    "CoffersScene.ts",
+    "CoffersDefenceRecCell.ts",
+    "CoffersDefenceRecDlg.ts",
+    "CoffersHeroRecCell.ts",
+    "CoffersHeroRecDlg.ts",
+    "CoffersSelectDefence.ts",
+    "CoffersServerCell.ts",
+    "CoffersServerDlg.ts",
+    "CoffersScore.ts",
+    "CoffersJili.ts",
+    "CoffersRob.ts"
+  ]
+}

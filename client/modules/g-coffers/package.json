@@ -1,0 +1,25 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-coffers",
+            "description": "g-coffers",
+            "files": [
+                "CoffersLayer.ts",
+                "CoffersScene.ts",
+                "CoffersDefenceRecCell.ts",
+                "CoffersDefenceRecDlg.ts",
+                "CoffersHeroRecCell.ts",
+                "CoffersHeroRecDlg.ts",
+                "CoffersSelectDefence.ts",
+                "CoffersServerCell.ts",
+                "CoffersServerDlg.ts",
+                "CoffersScore.ts",
+                "CoffersJili.ts",
+                "CoffersRob.ts"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "RankItem.ts",
+    "Rank.ts"
+  ]
+}

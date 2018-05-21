@@ -1,0 +1,21 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-arena",
+            "description": "g-arena",
+            "files": [
+                "Arena.ts",
+                "ArenaItem.ts",
+                "ArenaLog.ts",
+                "ArenaLogItem.ts",
+                "ArenaRank.ts",
+                "ArenaRankItem.ts",
+                "ArenaRankReward.ts",
+                "ArenaRankRewardCell.ts"
+            ]
+        }
+    ]
+}

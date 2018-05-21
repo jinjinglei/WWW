@@ -1,0 +1,26 @@
+{
+    "name" :"chuanqi",
+    "tscLib" : "frameworks/bin/lib/lib.d.ts",
+    "modules" : [
+        "skins", "g-base", "g-index", "g-channel", "g-bag", "g-home","g-fight","g-forge", "g-role", "g-shop"
+        ,"g-mid", "g-guide","g-guild","g-worldboss","g-red","g-defarena","g-king", "g-lotus","g-rebirth", "g-coffers"
+        ,"g-custom","g-medal","g-heart","g-guildCopy","g-guildwar","g-tower","g-practice","g-gift","g-villian"
+    ],
+    "native" : {
+        "path_ignore": [
+            "resource/myProject.json",
+            "resource/shared",
+            ".idea",
+            ".gitignore",
+            ".DS_Store"
+        ],
+        "android_path" : "aos",
+        "ios_path" : "ios"
+    },
+    "release" : "../release",
+    "publish" : {
+        "out" : "../../out",
+        "baseVersion" : 2
+    },
+    "egret_version" : "2.5.6"
+}

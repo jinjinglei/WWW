@@ -1,0 +1,16 @@
+{
+    "modules": ["egret", "game", "tween"],
+    "source":"src",
+    "files": [
+        "Manager.ts",
+        "Action.ts",
+        "ActionInstant.ts",
+        "ActionInterval.ts",
+        "Move.ts",
+        "Scale.ts",
+        "Skew.ts",
+        "Jump.ts",
+        "Fade.ts",
+        "Rotate.ts"
+    ]
+}

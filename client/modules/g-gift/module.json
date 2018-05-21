@@ -1,0 +1,22 @@
+{
+    "modules" : ["g-base"],
+    "source":"src",
+    "files" : [
+      "GiftEquip.ts",
+      "GiftEquipCell.ts",
+      "GiftForge.ts",
+      "GiftGongMingCell.ts",
+      "GiftInfoCell.ts",
+      "GiftLayer.ts",
+      "GiftLvUp.ts",
+      "GiftMerge.ts",
+
+      "GiftMergeCell.ts",
+      "GiftScene.ts",
+      "GiftSkillCell.ts",
+      "GiftUpStar.ts",
+      "GiftUpStarResult.ts",
+      "GiftBuyLingYun.ts",
+      "GiftXiLian.ts"
+    ]
+}

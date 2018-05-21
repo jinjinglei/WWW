@@ -1,0 +1,11 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "SmeltingBatch.ts",
+    "SmeltingItem.ts",
+    "Smelting.ts",
+    "SmeltChooseItem.ts",
+    "SmeltEquipChoose.ts"
+  ]
+}

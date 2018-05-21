@@ -1,0 +1,7 @@
+{
+  "modules" : ["g-base","g-defArena"],
+  "source":"src",
+  "files" : [
+    "King.ts"
+  ]
+}

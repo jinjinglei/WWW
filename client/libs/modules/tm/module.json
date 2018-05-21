@@ -1,0 +1,10 @@
+{
+    "desc": "timer相关模块，简写成tm。时间相关的api今后也要转移到这里来",
+    "modules" : ["boot"],
+    "source":"src",
+    "files" : [
+        "Trigger.ts",
+        "Timer.ts",
+        "tm.ts"
+    ]
+}

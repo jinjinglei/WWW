@@ -1,0 +1,21 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-heart",
+            "description": "g-heart",
+            "files": [
+                "HeartLayer.ts",
+                "HeartDetail.ts",
+                "HeartCell.ts",
+                "HeartSelect.ts",
+                "HeartSelectCell.ts",
+                "HeartChangeSelect.ts",
+                "HeartChangeSelectCell.ts",
+                "HeartScene.ts"
+            ]
+        }
+    ]
+}

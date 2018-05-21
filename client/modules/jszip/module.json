@@ -1,0 +1,8 @@
+{
+    "modules": ["egret"],
+    "source":"src",
+    "files" : [
+        "jszip.d.ts",
+        "jszip.js"
+    ]
+}

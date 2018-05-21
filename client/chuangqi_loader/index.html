@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>传奇世界</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no,target-densitydpi=device-dpi"/>
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-orientation" content="portrait"/>
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+
+        #rotate_screen{
+            position: absolute; z-index: 9999;width:100%;height:100%;top:0;left:0;display:none;
+        }
+        #rotate_screen img{
+            margin: auto; width: 100%;
+        }
+
+        /*文字描述*/
+        .h5c-loading.game_100220 .text_100220 {
+            text-align: center;
+        }
+        .h5c-loading.game_100220 .text_100220 p {
+            margin: 0 0 0.24414063em;
+            font-size: 1.07421875em;
+            font-family: Kaiti, Arial, Helvetica, sans-serif;
+            color: #ffffff;
+            font-weight: 700;
+        }
+        .h5c-loading.game_100220 .text_100220 p span {
+            color: #24dd00;
+        }
+        .h5c-loading.game_100220 .text_100220 p.blue {
+            color: #00c0ff;
+        }
+
+        /**图片*/
+        .pic_100220 {
+            background: url("loader/res/loading_100220_v3.jpg") no-repeat;
+            width: 23.4375em;
+            height: 16.11328125em;
+            background-size: contain;
+            background-position: bottom;
+            margin: 0 auto;
+        }
+
+
+        /*loaindg*/
+
+        .h5c-loading .loading-progress {
+            width: 100%;
+            height: 80%;
+            margin: 0;
+            padding-top: 40%;
+
+            padding-top: 0.9765625em;
+            height: 4.15039063em;
+            background: url("loader/res/loading_100220_tip.png") no-repeat;
+            background-position: 50% 100%;
+        }
+        .h5c-loading .loading-progress-name {
+            text-align: center;
+            padding: 0.24414063em;
+        }
+        .h5c-loading .loading-progress-name .loading-game-name {
+            font-size: 0.87890625em;
+        }
+        .h5c-loading .loading-progress-logo {
+            width: 5.859375em;
+            height: 5.859375em;
+            margin: 0 auto;
+            background-size: contain;
+            -moz-border-radius: 0.5859375em;
+            -webkit-border-radius: 0.5859375em;
+            border-radius: 0.5859375em;
+        }
+        .h5c-loading .loading-progress-tip {
+            width: 100%;
+            color: #333333;
+            text-align: center;
+            margin-top: 0.48828125em;
+        }
+        .h5c-loading .loading-progress-tip .loading-game-tip {
+            font-size: 0.78125em;
+        }
+        .h5c-loading .loading-progress-bar {
+            width: 70%;
+            height: 0.5859375em;
+            background: #ececec;
+            margin: 0 auto;
+            margin-top: 0.73242188em;
+
+            -webkit-border-radius: 0.24414063em;
+            -moz-border-radius: 0.24414063em;
+            border-radius: 0.24414063em;
+        }
+        .h5c-loading .loading-progress-finish {
+            width: 0;
+            height: 0.5859375em;
+            background: #ffa619;
+
+            -webkit-border-radius: 0.24414063em;
+            -moz-border-radius: 0.24414063em;
+            border-radius: 0.24414063em;
+        }
+        .h5c-loading .loading-progress-num {
+            color: #cccccc;
+            text-align: center;
+            margin-top: 0.73242188em;
+        }
+        .h5c-loading .loading-progress-num .percent-num {
+            font-size: 1.46484375em;
+        }
+    </style>
+</head>
+
+<body onload="ready()">
+    <div class="h5c-loading game_100220 app-loading-100021" id='loadingUi' style='z-index:2;'>
+        <div id="h5-loading-2" style="display: block;">
+            <div id='gameLogo' class="pic_100220"></div>
+            <div class="text_100220">
+                <p>攻击 <span>+1639</span></p>
+                <p>生命 <span>+601&nbsp;</span></p>
+                <p>物防 <span>+54&nbsp;&nbsp;</span></p>
+                <p>法防 <span>+68&nbsp;&nbsp;</span></p>
+                <p>命中 <span>+152&nbsp;</span></p>
+                <p class="blue">强化等级：30级别</p>
+                <p class="blue">攻击 +1260</p>
+            </div>
+            <div class="loading-progress">
+                <div class="loading-progress-bar">
+                    <div class="loading-progress-finish" id='loadingBar' ></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-resolution-mode="retina"
+         data-frame-rate="30"
+         data-content-width="480"
+         data-content-height="800"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+
+    <script src="loader/egret_require.js"></script>
+
+    <div id="rotate_screen" style="display: none">
+        <img id="rotate_screen_img" src="loader/res/rotateScreen.jpg" style="position: fixed;left:0px;top:0px"/>
+    </div>
+
+    <script>
+        var loadingUi;
+        var lbar;
+        var loadingInterID;
+        var progressInterID;
+        var loadpercent;
+        var loadFlag;
+
+        function ready(){
+            window.scrollTo(0, 1);
+            window["platform"] = "egret";
+            loadingUi = document.getElementById('loadingUi');
+            lbar = document.getElementById('loadingBar');
+            loadpercent = 0;
+            loadFlag = false;
+
+            setTimeout(function(){
+                loadingInterID = setInterval(loadCodeAndRes, 200);
+                progressInterID = setInterval(tickProgress, 10);
+            },100);
+
+            checkRotation();
+            window.onorientationchange = checkRotation;
+        }
+
+        function tickProgress(){
+            loadpercent+=2;
+            if(loadpercent>=100){
+                loadpercent = 0;
+            }
+            showPro(loadpercent);
+        }
+
+        function stopLoadProgress(){
+            clearInterval(loadingInterID);
+            loadingUi.parentNode.removeChild(loadingUi);
+        }
+
+        function showPro(pronum){
+
+            lbar.style.width = (pronum * 0.7)+"%";
+        }
+
+        function getPara(paraName){
+            var url = location.href;
+            if(url.indexOf("?") != -1){
+                var urlPara = "&" + url.split("?")[1];
+                var reg = new RegExp("\&"+paraName+"\=.*?(?:\&|$)");
+                var result = reg.exec(urlPara);
+                if(result){
+                    var value = result[0];
+                    return value.split("&")[1].split("=")[1];
+                }
+            }
+            return 0;
+        }
+
+        function loadCodeAndRes(){
+            if(!loadFlag){
+                loadFlag = true;
+                egret_h5.loadSingleScript("game_config.js?r=" + Math.random(), function (){
+                    var isWl = getPara("wl");
+                    egret_h5.loadScript(game_preload_list,
+                            function (){
+                                preloadingRes();
+                                runGame();
+                            },
+                            function (pro){
+                            }
+                    );
+                });
+            }
+        }
+
+        function preloadingRes(){
+            RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, onConfigComplete);
+        }
+
+        /**
+        * 配置文件加载完成,开始预加载preload资源组。
+        */
+         function onConfigComplete(event) {
+            //加载配置完成
+            clearInterval(loadingInterID);
+            stopLoadProgress();
+         }
+
+        function runGame(){
+            egret.project.gameVer = game_version;
+            egret.runEgret();
+        }
+
+        function isPad(){
+            var str = navigator.userAgent.toString().toLowerCase();
+            return str.indexOf('ipad') >= 0 || str.indexOf('tablet') >= 0;
+        }
+
+        function checkRotation() {
+            var div = document.getElementById("rotate_screen");
+            document.getElementById("rotate_screen_img").style.width = "100%";
+            //        document.getElementById("rotate_screen_img").style.height = "100%";
+            if (!isPad() && (window.orientation == 90 || window.orientation == -90)) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        }
+    </script>
+ </body>
+</html>

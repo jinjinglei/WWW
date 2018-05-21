@@ -1,0 +1,40 @@
+var skins;
+(function (skins) {
+    var comp;
+    (function (comp) {
+        var Dlg_0_Skin = (function (_super) {
+            __extends(Dlg_0_Skin, _super);
+            function Dlg_0_Skin() {
+                _super.call(this);
+                this.__s = egret.gui.setProperties;
+                this.__s(this, ["maxWidth", "minHeight", "minWidth"], [710, 230, 470]);
+                this.elementsContent = [this.__3_i(), this.contentGroup_i()];
+                this.states = [
+                    new egret.gui.State("normal", []),
+                    new egret.gui.State("disabled", [])
+                ];
+            }
+            var d = __define,c=Dlg_0_Skin,p=c.prototype;
+            d(p, "skinParts"
+                ,function () {
+                    return Dlg_0_Skin._skinParts;
+                }
+            );
+            p.contentGroup_i = function () {
+                var t = new egret.gui.Group();
+                this.contentGroup = t;
+                this.__s(t, ["bottom", "clipAndEnableScrolling", "left", "right", "top"], [0, true, 0, 0, 0]);
+                return t;
+            };
+            p.__3_i = function () {
+                var t = new egret.gui.UIAsset();
+                this.__s(t, ["bottom", "left", "right", "source", "top"], [-15, -15, -15, "s9g_dlg_0", -15]);
+                return t;
+            };
+            Dlg_0_Skin._skinParts = ["contentGroup"];
+            return Dlg_0_Skin;
+        })(egret.gui.Skin);
+        comp.Dlg_0_Skin = Dlg_0_Skin;
+        egret.registerClass(Dlg_0_Skin,"skins.comp.Dlg_0_Skin");
+    })(comp = skins.comp || (skins.comp = {}));
+})(skins || (skins = {}));

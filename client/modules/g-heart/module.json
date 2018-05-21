@@ -1,0 +1,14 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "HeartLayer.ts",
+    "HeartDetail.ts",
+    "HeartCell.ts",
+    "HeartSelect.ts",
+    "HeartSelectCell.ts",
+    "HeartChangeSelect.ts",
+    "HeartChangeSelectCell.ts",
+    "HeartScene.ts"
+  ]
+}

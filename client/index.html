@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>传奇世界</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.js" src-release="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/gui/gui.js" src-release="libs/modules/gui/gui.min.js"></script>
+	<script egret="lib" src="libs/modules/skins/skins.js" src-release="libs/modules/skins/skins.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/lib/lib.js" src-release="libs/modules/lib/lib.min.js"></script>
+	<script egret="lib" src="libs/modules/boot/boot.js" src-release="libs/modules/boot/boot.min.js"></script>
+	<script egret="lib" src="libs/modules/3rdParty/3rdParty.js" src-release="libs/modules/3rdParty/3rdParty.min.js"></script>
+	<script egret="lib" src="libs/modules/action/action.js" src-release="libs/modules/action/action.min.js"></script>
+	<script egret="lib" src="libs/modules/mo-base/mo-base.js" src-release="libs/modules/mo-base/mo-base.min.js"></script>
+	<script egret="lib" src="libs/modules/tm/tm.js" src-release="libs/modules/tm/tm.min.js"></script>
+	<script egret="lib" src="libs/modules/mo-action/mo-action.js" src-release="libs/modules/mo-action/mo-action.min.js"></script>
+	<script egret="lib" src="libs/modules/mo-gui/mo-gui.js" src-release="libs/modules/mo-gui/mo-gui.min.js"></script>
+	<script egret="lib" src="libs/modules/mo-net/mo-net.js" src-release="libs/modules/mo-net/mo-net.min.js"></script>
+	<script egret="lib" src="libs/modules/mo-channel/mo-channel.js" src-release="libs/modules/mo-channel/mo-channel.min.js"></script>
+	<script egret="lib" src="libs/modules/nest/nest.js" src-release="libs/modules/nest/nest.min.js"></script>
+	<script egret="lib" src="libs/modules/mo-guide/mo-guide.js" src-release="libs/modules/mo-guide/mo-guide.min.js"></script>
+	<script egret="lib" src="libs/modules/jszip/jszip.js" src-release="libs/modules/jszip/jszip.min.js"></script>
+	<script egret="lib" src="libs/modules/dcagent/dcagent.js" src-release="libs/modules/dcagent/dcagent.min.js"></script>
+	<script egret="lib" src="libs/modules/g-base/g-base.js" src-release="libs/modules/g-base/g-base.min.js"></script>
+	<script egret="lib" src="libs/modules/g-channel/g-channel.js" src-release="libs/modules/g-channel/g-channel.min.js"></script>
+	<script egret="lib" src="libs/modules/g-index/g-index.js" src-release="libs/modules/g-index/g-index.min.js"></script>
+	<script egret="lib" src="libs/modules/g-smelting/g-smelting.js" src-release="libs/modules/g-smelting/g-smelting.min.js"></script>
+	<script egret="lib" src="libs/modules/g-bag/g-bag.js" src-release="libs/modules/g-bag/g-bag.min.js"></script>
+	<script egret="lib" src="libs/modules/g-task/g-task.js" src-release="libs/modules/g-task/g-task.min.js"></script>
+	<script egret="lib" src="libs/modules/g-rank/g-rank.js" src-release="libs/modules/g-rank/g-rank.min.js"></script>
+	<script egret="lib" src="libs/modules/g-treasure/g-treasure.js" src-release="libs/modules/g-treasure/g-treasure.min.js"></script>
+	<script egret="lib" src="libs/modules/g-activity/g-activity.js" src-release="libs/modules/g-activity/g-activity.min.js"></script>
+	<script egret="lib" src="libs/modules/g-mail/g-mail.js" src-release="libs/modules/g-mail/g-mail.min.js"></script>
+	<script egret="lib" src="libs/modules/g-mid/g-mid.js" src-release="libs/modules/g-mid/g-mid.min.js"></script>
+	<script egret="lib" src="libs/modules/g-shop/g-shop.js" src-release="libs/modules/g-shop/g-shop.min.js"></script>
+	<script egret="lib" src="libs/modules/g-copy/g-copy.js" src-release="libs/modules/g-copy/g-copy.min.js"></script>
+	<script egret="lib" src="libs/modules/g-worldboss/g-worldboss.js" src-release="libs/modules/g-worldboss/g-worldboss.min.js"></script>
+	<script egret="lib" src="libs/modules/g-guild/g-guild.js" src-release="libs/modules/g-guild/g-guild.min.js"></script>
+	<script egret="lib" src="libs/modules/g-arena/g-arena.js" src-release="libs/modules/g-arena/g-arena.min.js"></script>
+	<script egret="lib" src="libs/modules/g-chuanchen/g-chuanchen.js" src-release="libs/modules/g-chuanchen/g-chuanchen.min.js"></script>
+	<script egret="lib" src="libs/modules/g-defarena/g-defarena.js" src-release="libs/modules/g-defarena/g-defarena.min.js"></script>
+	<script egret="lib" src="libs/modules/g-coffers/g-coffers.js" src-release="libs/modules/g-coffers/g-coffers.min.js"></script>
+	<script egret="lib" src="libs/modules/g-medal/g-medal.js" src-release="libs/modules/g-medal/g-medal.min.js"></script>
+	<script egret="lib" src="libs/modules/g-home/g-home.js" src-release="libs/modules/g-home/g-home.min.js"></script>
+	<script egret="lib" src="libs/modules/g-fight/g-fight.js" src-release="libs/modules/g-fight/g-fight.min.js"></script>
+	<script egret="lib" src="libs/modules/g-forge/g-forge.js" src-release="libs/modules/g-forge/g-forge.min.js"></script>
+	<script egret="lib" src="libs/modules/g-role/g-role.js" src-release="libs/modules/g-role/g-role.min.js"></script>
+	<script egret="lib" src="libs/modules/g-guide/g-guide.js" src-release="libs/modules/g-guide/g-guide.min.js"></script>
+	<script egret="lib" src="libs/modules/g-red/g-red.js" src-release="libs/modules/g-red/g-red.min.js"></script>
+	<script egret="lib" src="libs/modules/g-defArena/g-defArena.js" src-release="libs/modules/g-defArena/g-defArena.min.js"></script>
+	<script egret="lib" src="libs/modules/g-king/g-king.js" src-release="libs/modules/g-king/g-king.min.js"></script>
+	<script egret="lib" src="libs/modules/g-lotus/g-lotus.js" src-release="libs/modules/g-lotus/g-lotus.min.js"></script>
+	<script egret="lib" src="libs/modules/g-rebirth/g-rebirth.js" src-release="libs/modules/g-rebirth/g-rebirth.min.js"></script>
+	<script egret="lib" src="libs/modules/g-custom/g-custom.js" src-release="libs/modules/g-custom/g-custom.min.js"></script>
+	<script egret="lib" src="libs/modules/g-heart/g-heart.js" src-release="libs/modules/g-heart/g-heart.min.js"></script>
+	<script egret="lib" src="libs/modules/g-guildCopy/g-guildCopy.js" src-release="libs/modules/g-guildCopy/g-guildCopy.min.js"></script>
+	<script egret="lib" src="libs/modules/g-guildwar/g-guildwar.js" src-release="libs/modules/g-guildwar/g-guildwar.min.js"></script>
+	<script egret="lib" src="libs/modules/g-tower/g-tower.js" src-release="libs/modules/g-tower/g-tower.min.js"></script>
+	<script egret="lib" src="libs/modules/g-practice/g-practice.js" src-release="libs/modules/g-practice/g-practice.min.js"></script>
+	<script egret="lib" src="libs/modules/g-gift/g-gift.js" src-release="libs/modules/g-gift/g-gift.min.js"></script>
+	<script egret="lib" src="libs/modules/g-villian/g-villian.js" src-release="libs/modules/g-villian/g-villian.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件-->
+    <!--game_files_start-->
+	<!--game_files_end-->
+
+    <script egret="game" src="bin-debug/Main.js?a=333"></script>
+
+</head>
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-resolution-mode="retina"
+         data-frame-rate="30"
+         data-content-width="480"
+         data-content-height="800"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+    <script>
+        egret.project.gameVer = "3.5.24";
+        egret.runEgret();
+    </script>
+</body>
+</html>

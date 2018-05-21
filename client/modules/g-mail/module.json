@@ -1,0 +1,9 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "Mail.ts",
+    "MailItem.ts",
+    "MailInfo.ts"
+  ]
+}

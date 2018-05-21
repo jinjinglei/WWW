@@ -1,0 +1,32 @@
+<html><head><meta charset="utf-8"><meta http-equiv="pragma" content="no-cache"><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="cache" content="no-cache"><meta http-equiv="expires" content="0"></head>
+<body>
+<script type="text/javascript">
+    var getQueryString = function (name, source) {
+        try{
+            var reg, r, referrer = document.referrer;
+            reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var s = '';
+            switch (source){
+                case 'referrer':
+                    var ref = referrer?referrer.split('?'):['',''];
+                    s = ref[1];
+                    break;
+                default:
+                    s = window.location.search.substr(1);
+                    break;
+            }
+            r = s != undefined?s.match(reg):null;
+            return r !== null ? decodeURIComponent(r[2]) : null;
+        }catch(e){
+            return null;
+        }
+    }
+    var url = getQueryString('r');
+    if(url){
+        window.location.href = decodeURIComponent(url);
+    }else{
+        window.location.href = 'http://woool.hgame.com/'
+    }
+
+</script>
+</body></html>

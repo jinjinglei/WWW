@@ -1,0 +1,33 @@
+{
+  "modules" : ["g-base","g-worldboss"],
+  "source":"src",
+  "files" : [
+    "GuildListItem.ts",
+    "GuildListLayer.ts",
+    "GuildMineLayer.ts",
+    "CreateGuild.ts",
+    "GuildTreasure.ts",
+    "GuildContributeLayer.ts",
+    "GuildBenefitsLayer.ts",
+    "GuildManager.ts",
+    "GuildManagerCell.ts",
+    "GuildMemberListLayer.ts",
+    "GuildMemberItem.ts",
+    "GuildSearch.ts",
+    "GuildSearchResult.ts",
+    "GuildSetting.ts",
+    "GuildApplyList.ts",
+    "GuildApplyListItem.ts",
+    "GuildMessageAlert.ts",
+    "GuildContributeItem.ts",
+    "GuildMineItem.ts",
+    "GuildUpdateNotice.ts",
+    "GuildLotteryGain.ts",
+    "GuildMemberManager.ts",
+    "GuildRank.ts",
+    "GuildRankItem.ts",
+    "GuildSetEnnoble.ts",
+    "GuildEnnobleItem.ts",
+    "GuildEnnobleDetail.ts"
+  ]
+}

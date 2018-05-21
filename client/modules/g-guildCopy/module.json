@@ -1,0 +1,10 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "GuildCopyItem.ts",
+    "GuildCopy.ts",
+    "GuildCopyBossItem.ts",
+    "GuildCopyBoss.ts"
+  ]
+}

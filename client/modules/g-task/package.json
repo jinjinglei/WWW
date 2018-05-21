@@ -1,0 +1,16 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-task",
+            "description": "g-task",
+            "files": [
+                "ActivityBoxReward.ts",
+                "TaskItem.ts",
+                "TaskDlg.ts"
+            ]
+        }
+    ]
+}

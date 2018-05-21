@@ -1,0 +1,14 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-king",
+            "description": "g-king",
+            "files": [
+                "King.ts"
+            ]
+        }
+    ]
+}

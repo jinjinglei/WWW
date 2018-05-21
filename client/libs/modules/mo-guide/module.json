@@ -1,0 +1,10 @@
+{
+    "modules": ["mo-gui", "mo-net"],
+    "source":"src",
+    "files": [
+        "Cmd.ts",
+        "CfgHandler.ts",
+        "GuideLayer.ts",
+        "Mgr.ts"
+    ]
+}

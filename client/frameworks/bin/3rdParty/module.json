@@ -1,0 +1,15 @@
+{
+    "modules": ["egret", "game", "lib"],
+    "source":"src",
+    "files" : [
+        "date-utils.js",
+        "StandardDate.js",
+        "md5.d.ts",
+        "md5.js",
+
+        "nodejs-api/path.ts",
+        "nodejs-api/process.ts",
+
+        "3rd-api/async.ts"
+    ]
+}

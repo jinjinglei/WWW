@@ -1,0 +1,8 @@
+{
+  "modules" : ["mo-base"],
+  "source":"src",
+  "files" : [
+    "empty.d.ts",
+    "mc.js"
+  ]
+}

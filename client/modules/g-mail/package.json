@@ -1,0 +1,16 @@
+{
+    "name": "module",
+    "version": "2.5.6",
+    "modules": [
+        {
+            "root": "src",
+            "name": "g-mail",
+            "description": "g-mail",
+            "files": [
+                "Mail.ts",
+                "MailItem.ts",
+                "MailInfo.ts"
+            ]
+        }
+    ]
+}

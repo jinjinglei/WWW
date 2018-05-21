@@ -1,0 +1,8 @@
+{
+    "modules": ["egret"],
+    "source":"src",
+    "files" : [
+        "dcagent.d.ts"
+        ,"dcagent.js"
+    ]
+}

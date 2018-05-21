@@ -1,0 +1,14 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "MedalCell.ts",
+    "MedalAchiItem.ts"
+    ,"Medal.ts"
+    ,"MedalChooseItem.ts"
+    ,"MedalChange.ts"
+    ,"PrintItem.ts"
+    ,"PrintDetail.ts"
+    ,"PrintStr.ts"
+  ]
+}

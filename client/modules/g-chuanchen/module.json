@@ -1,0 +1,9 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "CCEquipChooseItem.ts",
+    "Chuanchen.ts",
+    "CCEquip.ts"
+  ]
+}

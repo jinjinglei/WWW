@@ -1,0 +1,14 @@
+{
+  "modules" : ["g-base","g-shop"],
+  "source":"src",
+  "files" : [
+    "VillianLayer.ts",
+    "VillianEnemy.ts",
+    "VillianBattle.ts",
+    "VillianHeroCell.ts",
+    "VillianSoulLayer.ts",
+    "VillianSoulCell.ts",
+    "VillianShopLayer.ts",
+    "VillianShopItem.ts"
+  ]
+}

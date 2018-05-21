@@ -1,0 +1,15 @@
+{
+  "modules" : ["g-base"],
+  "source":"src",
+  "files" : [
+    "RedPacket.ts",
+    "RedPacketGet.ts",
+    "RedPacketGetCell.ts",
+    "RedPacketList.ts",
+    "RedPacketRecCell.ts",
+    "RedPacketListCell.ts",
+    "RedPacketSystem.ts",
+    "RedPacketDetail.ts",
+    "RedPacketDetailCell.ts"
+  ]
+}
